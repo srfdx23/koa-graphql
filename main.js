@@ -4,7 +4,7 @@ import bodyParser from 'koa-bodyparser';
 import logger from 'koa-logger';
 import initDB from './src/models/initidb';
 import Person from './src/models/person';
-import { graphql } from 'graphql';
+import graphql from 'graphql';
 const app = new Koa();
 const port = 3000;
 const mount = require('koa-mount');
