@@ -58,6 +58,6 @@ const Mutation = new GraphQLObjectType({
       }
     }
   }
-})
+});
 
 export default Mutation;

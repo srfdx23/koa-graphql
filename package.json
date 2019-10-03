@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "server": "nodemon main.js --exec babel-node"
+    "test": "jest",
+    "server": "nodemon ./server/index.js --exec babel-node"
   },
   "keywords": [],
   "author": "Fernando Santos",
@@ -22,6 +23,8 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
     "mongoose": "^5.7.1"
   }
 }

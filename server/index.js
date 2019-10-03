@@ -2,15 +2,15 @@ import Koa from 'koa';
 import respond from 'koa-respond';
 import bodyParser from 'koa-bodyparser';
 import logger from 'koa-logger';
-import initDB from './src/models/initidb';
-import Person from './src/models/person';
+import initDB from './models/initidb';
+import Person from './models/person';
 import graphql from 'graphql';
 const app = new Koa();
 const port = 3000;
 const mount = require('koa-mount');
 const graphqlHTTP = require('koa-graphql');
-const schema = require('./src/graphql/schema');
-import RootQuery from  './src/graphql/schema'
+const schema = require('./graphql/schema');
+import RootQuery from  './graphql/schema'
 
 initDB();
 
