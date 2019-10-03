@@ -1,10 +1,9 @@
 {
-  "name": "koa-challenge",
+  "name": "koa-graphql",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "jest",
     "server": "nodemon ./server/index.js --exec babel-node"
   },
   "keywords": [],
@@ -23,8 +22,6 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "jest": "^24.9.0",
-    "jest-cli": "^24.9.0",
     "mongoose": "^5.7.1"
   }
 }
